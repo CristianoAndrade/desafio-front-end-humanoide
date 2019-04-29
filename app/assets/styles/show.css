@@ -1,0 +1,368 @@
+.banner_show {
+    background-image: url("../../../layout/images/fantasia-01.png");
+    background-color: #f0eef0;
+    background-repeat: no-repeat;
+    background-position: 243px 30px;
+    background-size: 419px 562px;
+    position: absolute;
+    width: 100%;
+    height: 592px;
+    right: 0;
+}
+
+.titulo_show {
+    position: absolute;
+    width: 243px;
+    height: 29px;
+    left: 734px;
+    top: 125px;
+}
+
+.titulo_show p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #000000;
+}
+
+.descricao_show {
+    position: absolute;
+    width: 461px;
+    height: 85px;
+    left: 734px;
+    top: 183px;
+}
+
+.descricao_show p {
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 0.1em;
+    color: #565656;
+}
+
+.preco_show {
+    position: absolute;
+    width: 360px;
+    height: 29px;
+    left: 732px;
+    top: 255px;
+}
+
+.preco_show p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #000000;
+}
+
+.preco_show span {
+    font-weight: 900;
+}
+
+.tamanho_show {
+    position: absolute;
+    top: 338px;
+    left: 733px;
+    width: 304px;
+    height: 93px;
+}
+
+.tamanho_show p {
+    width: 126px;
+    height: 19px;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 0.1em;
+    color: #000000;
+}
+
+.tamanho_show ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.tamanho_show--btn {
+    border: 1px solid #FF6143;
+    box-sizing: border-box;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    z-index: 1;
+    transition: 0.5s;
+    text-transform: lowercase;
+
+}
+
+.clicado {
+    background-color: #ff6348;
+    border: none;
+    color: #FFF; 
+}
+
+.hover {
+    background: #FF6143;
+    color: #FFFFFF;
+    transition: 0.5s;
+}
+
+.tamanho_show--btn:hover {
+    background-color: #ff6348;
+    border: none;
+    color: #FFF;
+
+}
+
+.adicionar_show--btn {
+    position: absolute;
+    top: 497px;
+    left: 735px;
+    background-color: #ff6348;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 303px;
+    height: 41px;
+    z-index: 1;
+}
+
+.modal_show {
+    position: absolute;
+    width: 100%;
+    height: 2013px;
+    background: rgba(0, 0, 0, 0.4);
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.modal_show--principal {
+    position: absolute;
+    width: 788px;
+    height: 597px;
+    left: 324px;
+    top: 316px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    background-image: url(../../../layout/images/confetti.svg);
+    background-repeat: no-repeat;
+    background-size: 118px 118px;
+    background-position: 341px 88px;
+    
+}
+
+.modal_show--texto1 {
+    position: absolute;
+    width: 187px;
+    height: 43px;
+    left: 312px;
+    top: 190px;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.1em;
+    color: #EB3636;
+}
+
+.modal_show--texto2 {
+    position: absolute;
+    width: 305px;
+    height: 66px;
+    left: 244px;
+    top: 304px;
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #000000;
+}
+
+.modal_show--btns {
+    position: relative;
+    top: 461px;
+    padding: 0 55px 0;
+}
+
+.modal_show_btns--fixer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.modal_show--btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 279px;
+    height: 41px;
+    border: 1px solid #FF6143;
+    box-sizing: border-box;
+    border-radius: 20px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    color: #FF6143;
+}
+
+.modal_show--btn:hover {
+    background: #FF6143;
+    color: #FFFFFF;
+    transition: 0.5s;
+}
+
+
+
+/*Mobile___________________________________________________*/
+    @media screen and (max-width: 375px){
+       
+        .banner_show {
+            height: 212px;
+            background-size: 156px 209px;
+            background-position: 0px 3px;
+        }
+        
+        .banner_img--confettitop {
+            background-position: -59px -18px;
+        }
+        
+        .titulo_show {
+            width: 142px;
+            height: 17px;
+            top: 39px;
+            left: 168px;
+        }
+        
+        .titulo_show p {
+            font-size: 14px;
+            line-height: 16px;
+        }
+        
+        .descricao_show {
+            width: 185px;
+            height: 85px;
+            top: 77px;
+            left: 169px;
+        }
+        
+        .descricao_show p {
+            font-size: 10px;
+            line-height: 13px;
+        }
+        
+        .preco_show {
+            width: 180px;
+            height: 15px;
+            top: 162px;
+            left: 167px;
+        }
+        
+        .preco_show p {
+            font-size: 12px;
+            line-height: 14px;
+        }
+        
+        .tamanho_show {
+            top: 221px;
+            left: 40px;
+        }
+        
+        .tamanho_show p {
+            font-weight: bold;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .adicionar_show--btn {
+            width: 196px;
+            height: 35px;
+            left: 92px;
+            top: 372px;
+            font-size: 12px;
+            line-height: 14px;
+            letter-spacing: 0.1em;
+
+        }
+        
+        .banner_frase {
+            width: 256px;
+            height: 17px;
+            top: 553px;
+            left: 53px;
+
+        }
+        
+        .produtos_row {
+            top: 611px;
+        }
+        
+        .modal_show--principal {
+            width: 327px;
+            height: 421px;
+            left: 23px;
+            top: 58px;
+            background-size: 70.13px 70.13px;
+            background-position: 131px 51px;
+        }
+        
+        .modal_show--texto1 {
+            width: 94px;
+            height: 22px;
+            left: 117px;
+            top: 131px;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 21px;
+            text-align: center;
+        }
+        
+        .modal_show--texto2 {
+            width: 153px;
+            height: 33px;
+            left: 88px;
+            top: 185px;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 16px;
+        }
+        
+        .modal_show--btns {
+            top: 255px;
+        }
+        
+        .modal_show_btns--fixer {
+            flex-wrap: wrap;
+        }
+        
+        .modal_show--btn {
+            width: 260.06px;
+            height: 34px;
+            margin-bottom: 21px;
+        }
+    }

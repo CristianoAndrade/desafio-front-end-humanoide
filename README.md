@@ -46,7 +46,7 @@ O desafio consiste em desenvolver telas de um e-commerce de fantasias para o car
 
 # Prazo
 
-O prazo de entrega é até o dia 20/03/2019
+O prazo de entrega é até o dia 02/04/2019
 
 # Dúvidas
 
